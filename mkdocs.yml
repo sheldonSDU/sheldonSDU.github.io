@@ -1,6 +1,6 @@
-site_name: ESP32 Guide (Template)
+site_name: Embedded System Made Easy with ESP32
 site_description: "A ready-to-use MkDocs Material template for ESP32 notes."
-site_author: "Your Name"
+site_author: "sheldon K.Liu"
 site_url: "https://<YOUR_GITHUB_USERNAME>.github.io/<REPO_NAME>/"
 
 repo_name: "<YOUR_GITHUB_USERNAME>/<REPO_NAME>"
