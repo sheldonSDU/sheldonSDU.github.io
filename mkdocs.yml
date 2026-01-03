@@ -1,10 +1,10 @@
 site_name: Embedded System Made Easy with ESP32
 site_description: "A ready-to-use MkDocs Material template for ESP32 notes."
 site_author: "sheldon K.Liu"
-site_url: "https://<YOUR_GITHUB_USERNAME>.github.io/<REPO_NAME>/"
+site_url: "https://sheldonSDU.github.io/"
 
-repo_name: "<YOUR_GITHUB_USERNAME>/<REPO_NAME>"
-repo_url: "https://github.com/<YOUR_GITHUB_USERNAME>/<REPO_NAME>"
+repo_name: "sheldonSDU/sheldonSDU.github.io"
+repo_url: "https://github.com/sheldonSDU/sheldonSDU.github.io"
 edit_uri: "edit/main/docs/"
 
 theme:
