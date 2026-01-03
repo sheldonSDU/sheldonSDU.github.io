@@ -1,0 +1,22 @@
+{% set cover = page.meta.cover %}
+<article class="md-post md-post--excerpt">
+  {% if cover %}
+    <a class="md-post__cover" href="{{ page.url | url }}">
+      <img src="{{ cover | url }}" alt="{{ page.title }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="md-post__body">
+    <header class="md-post__header">
+      <h2 class="md-post__title"><a href="{{ page.url | url }}">{{ page.title }}</a></h2>
+      <p class="md-post__meta">
+        {% if page.meta.date %}<span class="md-post__date">{{ page.meta.date }}</span>{% endif %}
+        {% if page.meta.tags %} ·
+          {% for tag in page.meta.tags %}
+            <a class="md-post__tag" href="{{ ('blog/tags/#' ~ tag) | url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        {% endif %}
+      </p>
+    </header>
+    {% if page.meta.excerpt %}<p class="md-post__excerpt">{{ page.meta.excerpt }}</p>{% endif %}
+  </div>
+</article>
