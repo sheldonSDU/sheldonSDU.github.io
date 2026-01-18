@@ -2,8 +2,8 @@
 
 # 嵌入式AI 教程 + 博客
 
-一个“**教程体系** + **持续更新博客**”的混合站点：  
-教程用于沉淀结构化知识，博客用于记录踩坑与最新实践。
+一个“基于教程的博客”站点，兼具“完整、系统化、循序渐进的的混合站点. 
+
 
 <p class="badges" markdown="1">
 <span class="badge">📚 系统教程</span>
@@ -12,7 +12,8 @@
 <span class="badge">🌓 深色模式</span>
 </p>
 
-[从教程开始 →](tutorial/index.md){ .md-button .md-button--primary }
+[ESP32→](tutorial/index.md){ .md-button .md-button--primary }
+[FPGA →](tutorial/index.md){ .md-button }
 [查看 Blog →](blog/index.md){ .md-button }
 
 </div>
