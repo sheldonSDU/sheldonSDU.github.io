@@ -73,10 +73,10 @@ nav:
       - 外设(peripherals): 
         - GPIO: peripherals/gpio.md
         - I2C:  peripherals/i2c.md
-  # - 网络:
-  #     - network/index.md
-  #     - Wi-Fi: network/wifi.md
-  #     - MQTT: network/mqtt.md
+  - FPGA 教程:
+      - FPGA/index.md
+      - 环境搭建: FPGA/setup.md
+      - Hello FPGA: FPGA/hello.md
   - 项目实战:
       - projects/index.md
       - OTA: projects/ota.md

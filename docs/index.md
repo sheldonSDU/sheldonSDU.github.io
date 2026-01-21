@@ -13,7 +13,7 @@
 </p>
 
 [ESP32→](tutorial/index.md){ .md-button .md-button--primary }
-[FPGA →](tutorial/index.md){ .md-button }
+[FPGA →](FPGA/index.md){ .md-button }
 [查看 Blog →](blog/index.md){ .md-button }
 
 </div>
