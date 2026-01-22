@@ -92,3 +92,7 @@
 [data-md-color-scheme="slate"] .md-post__tag{
   border-bottom:1px dotted rgba(255,255,255,.35);
 }
+.img-center {
+  display:block;
+  margin: 0 auto;
+}

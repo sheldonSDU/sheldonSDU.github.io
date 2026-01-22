@@ -2,14 +2,10 @@
 
 # 嵌入式AI 教程 + 博客
 
-一个“基于教程的博客”站点，兼具“完整、系统化、循序渐进的的混合站点. 
-
 
 <p class="badges" markdown="1">
 <span class="badge">📚 系统教程</span>
 <span class="badge">✍️ 技术博客</span>
-<span class="badge">🔍 全站搜索</span>
-<span class="badge">🌓 深色模式</span>
 </p>
 
 [ESP32→](tutorial/index.md){ .md-button .md-button--primary }
@@ -45,8 +41,10 @@ OTA、传感器采集、日志系统、低功耗。
 </div>
 
 ## 最新博客（示例）
-- [ESP-IDF menuconfig 常见坑](blog/posts/2026-01-03-menuconfig-pitfalls.md)
-- [I2C 扫描与异常处理](blog/posts/2026-01-02-i2c-scan.md)
+- [基于VSCode的Draw.io插件绘制框图](blog/posts/2026-01-21-基于VSCode的Draw.io插件绘制框图.md)
+- [Conda构建虚拟环境时Pip的使用问题 ](blog/posts/2026-01-22-Conda构建虚拟环境时Pip的使用问题.md)
 - [OTA 回滚策略](blog/posts/2026-01-01-ota-rollback.md)
 
-> 建议：教程写“体系化章节”，博客写“即时记录与踩坑”，二者互相链接。
+> 说明：本站点同时包含教程与博客两大模块：“系统教程”与“技术博客”。
+- 教程写“体系化章节”，博客写“即时记录与踩坑”，二者互相链接。
+- 博客更注重“记录”与“分享”，教程更注重“系统”与“循序渐进”。

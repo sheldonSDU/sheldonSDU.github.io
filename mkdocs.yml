@@ -6,7 +6,6 @@ site_url: "https://sheldonSDU.github.io/"
 repo_name: "sheldonSDU.github.io"
 repo_url: "https://github.com/sheldonSDU/sheldonSDU.github.io"
 edit_uri: "edit/main/docs/"
-
 theme:
   custom_dir: overrides
   name: material
@@ -84,5 +83,4 @@ nav:
       - blog/index.md
       - Tags: blog/tags.md
       - Archive: blog/archive.md
-  - 下载与备份: backup.md
   - 关于: about.md
